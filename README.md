@@ -66,9 +66,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yusufmermi/Yusufmermi/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yusufmermi/Yusufmermi/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/Yusufmermi/Yusufmermi/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yusufmermi/Yusufmermi/output/galaga-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yusufmermi/Yusufmermi/output/galaga-contribution-graph.svg" />
+    <img alt="Galaga playing on my contribution graph" src="https://raw.githubusercontent.com/Yusufmermi/Yusufmermi/output/galaga-contribution-graph-dark.svg" />
   </picture>
 </div>
 

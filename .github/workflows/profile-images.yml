@@ -1,4 +1,4 @@
-# Generates the contribution "snake" animation and the yearly stats card
+# Generates the Galaga contribution game and the yearly stats card
 # shown in README.md and pushes them to the `output` branch. Runs daily,
 # on every push to main, and can be triggered manually from the Actions tab.
 name: Generate profile images
@@ -20,13 +20,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+      # Pinned to a commit: the project has no tagged releases
+      - name: Generate Galaga SVGs
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          games: galaga
 
       - name: Generate yearly stats card
         run: python3 .github/scripts/year_stats.py dist/year-stats.svg
