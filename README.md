@@ -82,12 +82,10 @@
   <a href="mailto:a.yusufmermi20@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <!-- LinkedIn: replace YOUR-LINKEDIN with your profile slug, then remove these comment markers
   &nbsp;
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
+  <a href="https://www.linkedin.com/in/ahmet-yusuf-mermi">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  -->
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1f6feb,100:8957e5&height=110&section=footer" width="100%" alt="Footer" />
