@@ -58,7 +58,7 @@
 <h3 align="center">📊 GitHub Stats</h3>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yusufmermi&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Yusuf's GitHub Stats" />
+  <img height="165" src="https://raw.githubusercontent.com/Yusufmermi/Yusufmermi/output/year-stats.svg" alt="Yusuf's GitHub stats this year" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yusufmermi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
   <br>
   <img src="https://streak-stats.demolab.com/?user=Yusufmermi&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />

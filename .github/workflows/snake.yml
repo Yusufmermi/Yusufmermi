@@ -1,7 +1,7 @@
-# Generates the contribution "snake" animation shown in README.md
-# and pushes it to the `output` branch. Runs daily, on every push to main,
-# and can be triggered manually from the Actions tab.
-name: Generate snake animation
+# Generates the contribution "snake" animation and the yearly stats card
+# shown in README.md and pushes them to the `output` branch. Runs daily,
+# on every push to main, and can be triggered manually from the Actions tab.
+name: Generate profile images
 
 on:
   schedule:
@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,6 +27,11 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Generate yearly stats card
+        run: python3 .github/scripts/year_stats.py dist/year-stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
