@@ -11,9 +11,7 @@
     On the side, I experiment with <b>deep reinforcement learning</b> for controlling underactuated robots.
   </p>
 
-  <p><i>"Ship it, play it, break it, fix it."</i></p>
-
-  <img src="https://komarev.com/ghpvc/?username=Yusufmermi&label=Profile%20views&color=1f6feb&style=flat" alt="Profile views" />
+  <p><i>"If you are afraid – don't do it, if you are doing it – don't be afraid!"</i><br>— Genghis Khan</p>
 </div>
 
 ---
