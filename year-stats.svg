@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="467" height="195" viewBox="0 0 467 195" role="img" aria-label="Yusuf&#x27;s 2026 on GitHub">
+<title>Yusuf&#x27;s 2026 on GitHub: 269 commits</title>
+<style>
+.header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; animation: fadeIn .8s ease-in-out forwards; }
+.stat { font: 600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #38bdae; }
+.icon { fill: none; stroke: #bf91f3; stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+.stagger { opacity: 0; animation: fadeIn .3s ease-in-out forwards; }
+.year { font: 800 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+.pct { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+.ring-bg { fill: none; stroke: #70a5fd; stroke-opacity: .2; stroke-width: 6; }
+.ring { fill: none; stroke: #70a5fd; stroke-width: 6; stroke-linecap: round;
+  stroke-dasharray: 251.33; stroke-dashoffset: 251.33;
+  animation: ring 1s ease-in-out .3s forwards; }
+@keyframes ring { to { stroke-dashoffset: 57.02; } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+</style>
+<rect x="0.5" y="0.5" rx="4.5" width="466" height="194" fill="#0D1117"/>
+<text class="header" x="25" y="35">Yusuf&#x27;s 2026 on GitHub</text>
+<g class="stagger" style="animation-delay:450ms" transform="translate(25,72)"><g class="icon" transform="translate(0,-12)"><circle cx="8" cy="8" r="3"/><path d="M0 8h5M11 8h5"/></g><text class="stat" x="25">Total Commits (2026):</text><text class="stat" x="245">269</text></g><g class="stagger" style="animation-delay:600ms" transform="translate(25,100)"><g class="icon" transform="translate(0,-12)"><rect x="1" y="1" width="5.5" height="5.5" rx="1"/><rect x="9.5" y="1" width="5.5" height="5.5" rx="1"/><rect x="1" y="9.5" width="5.5" height="5.5" rx="1"/><rect x="9.5" y="9.5" width="5.5" height="5.5" rx="1"/></g><text class="stat" x="25">Total Contributions (2026):</text><text class="stat" x="245">271</text></g><g class="stagger" style="animation-delay:750ms" transform="translate(25,128)"><g class="icon" transform="translate(0,-12)"><rect x="1.5" y="3" width="13" height="11.5" rx="1.5"/><path d="M1.5 7h13M5 1v3.5M11 1v3.5"/></g><text class="stat" x="25">Active Days (2026):</text><text class="stat" x="245">32</text></g><g class="stagger" style="animation-delay:900ms" transform="translate(25,156)"><g class="icon" transform="translate(0,-12)"><path d="M9.5 1 3 9h4.5L6.5 15 13 7H8.5z"/></g><text class="stat" x="25">Most in One Day:</text><text class="stat" x="245">38</text></g>
+<g transform="translate(390,107)">
+  <circle class="ring-bg" r="40"/>
+  <circle class="ring" r="40" transform="rotate(-90)"/>
+  <text class="year" text-anchor="middle" y="4">2026</text>
+  <text class="pct" text-anchor="middle" y="22">77%</text>
+</g>
+</svg>
